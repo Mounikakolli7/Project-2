@@ -12,8 +12,7 @@ st.set_page_config(page_title="World Development Clustering", layout="wide")
 st.title("🌍 World Development Clustering App (2D + 3D)")
 
 # File uploader
-uploaded_file = st.file_uploader(r"C:\Users\mouni\OneDrive\Desktop\PPT P2\project 2 dataset\World_development_mesurement.xlsx")
-
+uploaded_file = st.file_uploader(r"https://raw.githubusercontent.com/username/repo/main/World_development_mesurement.csv")
 if uploaded_file:
     # Load file
     if uploaded_file.name.endswith('.csv'):
